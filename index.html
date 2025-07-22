@@ -15,13 +15,13 @@
 
     <!-- Font Awesome -->
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Tailwind Cdn -->
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    </head>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
 
 <body class="font-[poppins]">
     <header class="max-w-[1170px] m-auto pt-[50px]">
@@ -266,12 +266,43 @@
 
         </section>
 
-
-
     </main>
 
-    <footer>
-
+    <footer class="bg-black">
+        <div class="max-w-[1170px] m-auto py-[120px] flex gap-[80px]">
+            <div class="w-[259px]">
+                <img class="mb-[47px]" src="./images/logo.png" alt="">
+                <p class="text-[#CFCFCF]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.</p>
+            </div>
+            <div class="w-[127px]">
+                <h3 class="text-white mb-[47px]">Usefull Link</h3>
+                <ul class="flex flex-col w-full">
+                    <a class="text-[#CFCFCF] leading-[40px]" href="#">Home</a>
+                    <a class="text-[#CFCFCF] leading-[40px]" href="#">About Us</a>
+                    <a class="text-[#CFCFCF] leading-[40px]" href="#">Cases</a>
+                    <a class="text-[#CFCFCF] leading-[40px]" href="#">Blog</a>
+                    <a class="text-[#CFCFCF] leading-[40px]" href="#">Contact Us</a>
+                </ul>
+            </div>
+            <div class="w-[216px]">
+                <h3 class="text-white mb-[47px]">Contact Now</h3>
+                <p class="text-[#CFCFCF] leading-[26px]">555 4th 5t NW, Washington
+                    DC 20530, United States</p>
+                <p class="text-[#CFCFCF] my-4 leading-[26px]">+88 01750 000 000
+                    +88 01750 000 000</p>
+                <p class="text-[#CFCFCF] leading-[26px]">info@gmail.com
+                    info@gmail.com</p>
+            </div>
+            <div class="w-[324px]">
+                <h3 class="text-white mb-[47px]">Subscribe</h3>
+                <p class="text-[#CFCFCF] leading-[26px] w-[217px]">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+                <form class="relative mt-6">
+                    <input class="w-full py-[23px] px-[33px] bg-white block rounded-[8px]" placeholder="Email Address">
+                    <img class="absolute top-0 right-0" src="./images/send.png" alt="">
+                </form>
+            </div>
+        </div>
     </footer>
 </body>
 
